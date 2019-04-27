@@ -1,0 +1,15 @@
+{
+  "learning_rate": 0.001,
+  "decay_factor": 0.98,
+  "hidden_dim": 1000,
+  "epochs": 25,
+  "batch_size": 20,
+  "word_embedding_dim": 400,
+  "max_fact_len": 60,
+  "max_facts": 60,
+  "num_layers": 2,
+  "fact_embedding_dim": 200,
+  "max_desc_len": 60,
+  "p_dropout": 0.5,
+  "eps": 1e-7
+}

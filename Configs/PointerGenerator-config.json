@@ -1,0 +1,11 @@
+{
+  "embedding_dim": 100,
+  "hidden_dim": 100,
+  "max_context_len": 60,
+  "max_fact_len": 60,
+  "max_desc_len":60,
+  "batch_size": 1,
+  "learning_rate": 0.001,
+  "epochs": 25,
+  "eps": 1e-7
+}
