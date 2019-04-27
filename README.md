@@ -14,7 +14,7 @@ run_model.py --model NKLM --datadir Data/WikiFacts10k-OpenDomain --config Config
 To run evaluation script, use
 
 ```
-python evaluate.py result_<model_name>.csv
+python evaluate.py <model_name>.csv
 ```
 
 ## Authors
@@ -27,12 +27,12 @@ python evaluate.py result_<model_name>.csv
 If you use this code, please cite our paper.
 
 ```
-@inproceedings{Bhowmik2018EntityDescriptions,
-  title = {Generating Fine-Grained Open Vocabulary Entity Type Descriptions},
+@inproceedings{BhowmikDeMelo2019EntityDescriptionsCopyModel,
+  title = {Be Concise and Precise: Synthesizing Open-Domain Entity Descriptions from Facts},
   author = {Bhowmik, Rajarshi and {de Melo}, Gerard},
-  booktitle = {Proceedings of ACL 2018},
-  year = {2018},
-  location = {Melbourne},
+  booktitle = {Proceedings of The Web Conference 2019},
+  year = {2019},
+  location = {San Francisco},
 }
 ```
 
