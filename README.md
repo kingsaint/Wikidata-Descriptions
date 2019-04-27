@@ -5,7 +5,7 @@ Be Concise and Precise: Synthesizing Open-Domain Entity Descriptions from Facts
 ```
 run_model.py --model MODEL_NAME --datadir PATH_TO_DATADIR --config PATH_TO_CONFIG_FILE_NAME --mode [training/eval]
 ```
-MODEL_NAME can be NKLM. DGN, Fact2SeqAttn and PointerGenerator. E.g.
+MODEL_NAME can be NKLM, DGN, Fact2SeqAttn and PointerGenerator. E.g.
 ```
 run_model.py --model NKLM --datadir Data/WikiFacts10k-OpenDomain --config Configs/NKLM-config.json --mode training
 run_model.py --model PointerGenerator --datadir Data/WikiFacts10k-OpenDomain --config Configs/PointerGenerator-config.json --mode eval
