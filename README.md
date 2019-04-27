@@ -1,7 +1,7 @@
 # Wikidata-Descriptions
 Be Concise and Precise: Synthesizing Open-Domain Entity Descriptions from Facts
 
-# Training and Inference
+## Training and Inference
 ```
 run_model.py --model MODEL_NAME --datadir PATH_TO_DATADIR --config PATH_TO_CONFIG_FILE_NAME --mode [training/eval]
 ```
