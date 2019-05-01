@@ -292,7 +292,8 @@ class PointerGenerator(nn.Module):
                 if output_word == '<EOS>':
                     break
                 else:
-                    decoded_words.append(output_word)
+                    if output_word != '<UNK>':
+                        decoded_words.append(output_word)
 
                 if f_max_idx == (self.config['max_context_len'] - 1) or output_word == '<UNK>':
                     y_prev = self.p.word_to_idx[output_word]

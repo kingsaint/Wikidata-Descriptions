@@ -305,7 +305,9 @@ class NKLM(nn.Module):
                             output_word = batch_factual_words[b_idx][a_max_idx][rel_pos_idx]
                         else:
                             output_word = '<UNK>'
-                        output_seq.append(output_word)
+
+                        if output_word != '<UNK>':
+                            output_seq.append(output_word)
 
                     # Prepare input for next time step
 
