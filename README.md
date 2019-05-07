@@ -12,11 +12,11 @@ run_model.py --model PointerGenerator --datadir Data/WikiFacts10k-OpenDomain --c
 
 ```
 ## Evaluation
-
+We used the automatic evaluation script developed by Sharma et al. 
 To run evaluation script, use
 
 ```
-python evaluate.py <model_name>.csv
+python evaluatation.py <model_name>.csv
 ```
 
 ## Authors
